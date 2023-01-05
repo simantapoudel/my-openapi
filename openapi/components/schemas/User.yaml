@@ -4,16 +4,20 @@ properties:
     description: User supplied username
     type: string
     minLength: 4
-    example: John78
+    example: Simanta
   firstName:
     description: User first name
     type: string
     minLength: 1
-    example: John
+    example: Simanta
   lastName:
     description: User last name
     type: string
     minLength: 1
-    example: Smith
+    example: Poudel
   email:
     $ref: ./Email.yaml
+  address:
+    description: User's address
+    type: string
+    example: Lokanthali, Bhaktapur
